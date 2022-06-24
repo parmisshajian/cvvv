@@ -1,0 +1,147 @@
+body {
+
+}
+
+
+h1{
+
+  margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+/* Id selectors */
+
+
+#exampleInputEmail1{
+  margin: auto;
+  width: 500px
+}
+#exampleInputPassword1{
+  margin: auto;
+
+  width: 500px;
+}
+
+/* Title */
+#facilities{
+  font-family: 'Catamaran', sans-serif;
+  padding: 0% 12%;
+  text-align: center;
+}
+
+
+#title{
+
+  background-color: #E9DAC1;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: normal;
+padding: 2% 12%;
+
+}
+
+
+#bookings{
+  background-color: #719FB0;
+  padding: 100px;
+    text-align: center;
+font-family: 'Catamaran', sans-serif;
+}
+
+#information{
+  color: #2B2B2B;
+  font-family: 'Catamaran', sans-serif;
+  padding: 4% 10%;
+  text-align: center;
+}
+
+/* class selectors */
+
+.card-group{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.container-fluid{
+  padding: 0
+}
+
+
+.bookings-h1{
+  margin-top: 20px;
+  color: white;
+}
+
+.big-city{
+line-height: 1.8rem;
+}
+
+.drown{
+  margin-top: 150px;
+  font-weight: normal;
+  line-height: 3.5rem;
+}
+
+
+
+.facilities-h1{
+  color: #2B2B2B;
+  margin-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+.facilities-p{
+  font-size: 1.2rem;
+  font-weight: normal;
+padding-top: 30px;
+line-height: 2.2rem;
+}
+
+.information{
+  font-family: 'Catamaran', sans-serif;
+}
+
+.navbar-brand{
+  font-size: 1.8rem;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+  .pricing-col {
+    padding: 3% 2%;
+  }
+
+
+.title-img{
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+
+/* Media query */
+@media screen and (max-width:991px) {
+
+  #title {
+     text-align: center;
+   }
+
+
+
+.navbar{
+  font-size: 1.5rem;
+}
+
+.title-img{
+  height:300px;
+  width:350px;
+}
